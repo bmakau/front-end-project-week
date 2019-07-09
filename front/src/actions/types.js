@@ -1,0 +1,22 @@
+//USER ACTIONS TYPES
+export const SIGNING_USER = "SIGNING_USER";
+export const SIGNED_USER = "SIGNED_USER";
+
+export const LOGGING_USER = "LOGGING_USER";
+export const LOGGED_USER = "LOGGED_USER";
+
+export const LOGGING_USER_OUT= "LOGGING_USER_OUT";
+export const LOGGED_USER_OUT = "LOGGED_USER_OUT";
+
+export const DELETING_USER = "DELETING_USER";
+export const DELETED_USER = "DELETED_USER";
+
+export const UPDATING_USER = "UPDATING_USER";
+export const UPDATED_USER = "UPDATED_USER";
+
+export const GOT_USER = "GOT_USER";
+export const GETTING_USER = "GETTING_USER";
+
+//ERROR ACTION TYPES
+export const GET_ERROR = "GET_ERROR";
+

@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter} from 'react-router-dom';
-import CreateNote from './CreateNote';
-import EditNote from './EditNote';
-import Data from './Data';
+import CreateNote from './components/CreateNote';
+import EditNote from './components/EditNote';
+
 ReactDOM.render(
    <BrowserRouter>
    <App />
